@@ -1,5 +1,45 @@
 .Page {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-position: 0 0;
+  z-index: -1;
+}
+
+.Page::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.5) 10%,
+    rgba(0,0,0,0) 30%,
+    rgba(0,0,0,0) 70%,
+    rgba(0,0,0,0.5) 100%
+    );
+  z-index: -1;
+}
+
+.Page-Title {
+  margin: 0;
+  display: block;
+  color: #ffffff;
+  font-family: "Exo 2";
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-shadow: 0 1px 0 #000000;
+}
+
+.Page-Product {
+  margin-top: 23px;
 }
