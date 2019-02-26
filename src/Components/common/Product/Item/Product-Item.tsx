@@ -23,7 +23,12 @@ export const ProductItem: React.SFC<IProductItemProps> = ({description, company,
       <div className={cnProduct('Company')}>{company}</div>
       <div className={cnProduct('Taste')}>{taste}</div>
       <div className={cnProduct('Promo')}>{promo}</div>
-    <div className={cnProduct('Serving')}>{serving}</div>
+      <img className={cnProduct('Image')} src="./img/cat.png" alt="Funbox cat"/>
+      <div className={cnProduct('Serving')}>
+        <div className={cnProduct('Weight')}>{serving}</div>
+        <div className={cnProduct('Units')}>кг</div>
+      </div>
+
     </div>
     <div className={cnProduct('Info')}>{info}</div>
   </div>

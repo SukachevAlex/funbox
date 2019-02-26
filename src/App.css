@@ -8,7 +8,7 @@
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   font-weight: 400;
   background-position: 0 0;
-  z-index: -1;
+  z-index: 0;
 }
 
 .Page::before {
