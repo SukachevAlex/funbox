@@ -21,6 +21,7 @@ export const Product: React.SFC<IProductProps> = ({className}) => {
       promo={el.promo}
       serving={el.serving}
       info={el.info}
+      link={el.link}
       status={el.status}
     />
   ));
