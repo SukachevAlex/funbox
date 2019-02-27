@@ -83,7 +83,11 @@
 
 `В декабре 2018 успешно окончил Школу Разработки Интерфейсов от Яндекса.`
 
-`Есть опыт участия в Open Source проекте [GitHub](https://github.com/SukachevAlex/html-reporter).`
+`Есть опыт участия в Open Source проекте` [GitHub](https://github.com/SukachevAlex/html-reporter)
+
+`Ссылка на последние работы (демо и код)` [Link](https://sukachevalex.github.io/ProjectList/)
+
+`Ссылка на репозиторий` [Github](https://github.com/SukachevAlex/)
 
 Люблю
 
