@@ -97,6 +97,7 @@
 }
 
 .Product-Company {
+  margin-top: 4px;
   color: #000000;
   font-size: 48px;
   line-height: 48px;
@@ -108,6 +109,7 @@
 }
 
 .Product-Taste {
+  margin-top: 3px;
   color: #000000;
   font-size: 24px;
   line-height: 24px;
@@ -119,15 +121,26 @@
 }
 
 .Product-Promo {
-  margin-top: 16px;
+  margin-top: 13px;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
 }
 
+
 .Product-Item_status_disabled .Product-Promo {
   opacity: 0.5;
 }
+
+.Product-Portion {
+  margin: 0;
+}
+
+.Product-Gift {
+  margin: 0;
+  max-width: 125px;
+}
+
 
 .Product-Image {
   width: 100%;

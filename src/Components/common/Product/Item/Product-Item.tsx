@@ -10,7 +10,7 @@ export interface IProductItemProps {
   description?: string;
   company?: string;
   taste?: string;
-  promo?: string;
+  promo?: any;
   serving?: string;
   info?: string;
   link?: string;
@@ -55,7 +55,10 @@ export class ProductItem extends React.Component <IProductItemProps, IProductIte
           </div>
           <div className={cnProduct('Company')}>{this.props.company}</div>
           <div className={cnProduct('Taste')}>{this.props.taste}</div>
-          <div className={cnProduct('Promo')}>{this.props.promo}</div>
+          <div className={cnProduct('Promo')}>
+            <p className={cnProduct('Portion')}>{this.props.promo.portion}</p>
+            <p className={cnProduct('Gift')}>{this.props.promo.gift}</p>
+          </div>
           <img className={cnProduct('Image')} src="./img/cat.png" alt="Funbox cat"/>
           <div className={cnProduct('Serving')}>
             <div className={cnProduct('Weight')}>{this.props.serving}</div>
