@@ -1,5 +1,5 @@
 .Product-Item {
-  margin-left: 20px;
+  margin-left: 80px;
   margin-bottom: 23px;
   display: flex;
   flex-direction: column;
@@ -226,7 +226,7 @@
   color: #ffff66;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 830px) {
   .Product-Item {
     margin-left: 0;
   }
