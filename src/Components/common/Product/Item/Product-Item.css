@@ -1,10 +1,16 @@
 .Product-Item {
-  width: 320px;
-  height: 480px;
+  margin-left: 20px;
+  margin-bottom: 23px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  outline: none;
 }
+
+.Product-Item:first-of-type {
+  margin-left: 0;
+}
+
 
 .Product-Item_status_disabled {
   pointer-events: none;
@@ -13,8 +19,8 @@
 .Product-Card {
   padding: 20px 45px 0;
   margin-bottom: 19px;
-  width: 100%;
-  height: 100%;
+  width: 312px;
+  height: 472px;
   position: relative;
   color: #666666;
   font-family: "Trebuchet MS";
@@ -124,6 +130,7 @@
 }
 
 .Product-Image {
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0px;
@@ -174,7 +181,7 @@
 }
 
 .Product-Weight {
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .Product-Units {
@@ -204,4 +211,16 @@
 
 .Product-Item_status_disabled .Product-Info {
   color: #ffff66;
+}
+
+@media screen and (max-width: 660px) {
+  .Product-Item {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .Product-Card {
+    width: 295px;
+  }
 }
